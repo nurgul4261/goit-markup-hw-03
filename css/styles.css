@@ -317,6 +317,7 @@ img {
     padding-bottom: 32px;
     padding-left: 16px;
     gap: 8px;
+    border-top: 0;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
