@@ -308,12 +308,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 156px;
-    padding-left: 156px;
     max-width: 100%;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    gap: 32px;
+    width: 1128px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -321,13 +318,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1128px;
-    height: 420px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0;
     flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
+    gap: 24px;
     list-style: none;
 }
 
@@ -343,7 +336,6 @@ img {
 }
 
 .portfolio-item-container {
-    display: flex;
     width: 360px;
     height: 120px;
     top: 300px;
@@ -417,7 +409,7 @@ img {
   flex-basis: 112px;
   padding-top: 100px;
   flex-direction: column;
-  margin: 120px auto;
+  margin: 0 auto;
 
 }
 
