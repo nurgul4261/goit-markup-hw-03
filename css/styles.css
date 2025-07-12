@@ -221,11 +221,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
   height: 780px;
   padding-left: 156px;
   padding-right: 156px;
-  background-color: #F4F4FD;
   margin: 0 auto;
   gap: 32px;
 }
 
+.team-section {
+  background-color: #F4F4FD;
+}
 
 .team {
   display: flex;
@@ -344,6 +346,7 @@ img {
     padding-bottom: 32px;
     padding-left: 16px;
     gap: 8px;
+    border-top-width: 0;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -386,7 +389,6 @@ img {
 
 .footer {
   display: block;
-  width: 1440px;
   height: 312px;
   background-color: #2E2F42;
 }
@@ -418,7 +420,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 264px;
+  width: 1158px;
   height: 112px;
 }
 
