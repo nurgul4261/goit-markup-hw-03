@@ -387,11 +387,7 @@ img {
   color: #434455;
 }
 
-.footer {
-  display: block;
-  height: 312px;
-  background-color: #2E2F42;
-}
+
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -404,7 +400,7 @@ img {
   text-decoration: none;
 }
 
-.footer.footer {
+.footer {
   display: flex;
   justify-content: flex-start;
   padding-left: 156px;
@@ -412,6 +408,8 @@ img {
   padding-top: 100px;
   flex-direction: column;
   margin: 0 auto;
+  height: 312px;
+  background-color: #2E2F42;
 
 }
 
@@ -443,5 +441,5 @@ img {
   letter-spacing: 2%;
   color: #F4F4FD;
   text-align: left;
+ 
 }
-
